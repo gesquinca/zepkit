@@ -1,5 +1,6 @@
 {
-  "ignore": ["README.md", "zos.json", "box-img-lg.png", "box-img-sm.png", ".github"],
+  "ignore": ["README.md", "zos.json", ".github"],
+  "description": "ZepKit comes with everything you need to start using upgradeable Smart contracts inside your applications. It also includes all the configuration required to deploy to different networks.",
   "commands": {
     "Add a contract": "zos add <contract_name>",
     "Create a session": "zos session --network <network_name> --from <default_address> --expires 36000",
