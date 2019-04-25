@@ -1,18 +1,6 @@
 {
   "ignore": ["README.md", "zos.json", ".github"],
-  "description": "ZepKit comes with everything you need to start using upgradeable Smart contracts inside your applications. It also includes all the configuration required to deploy to different networks.",
-  "commands": {
-    "Add a contract": "zos add <contract_name>",
-    "Create a session": "zos session --network <network_name> --from <default_address> --expires 36000",
-    "Compile all contract and deploy them": "zos push --deploy-dependencies",
-    "Create upgradeable instance of a contract": "zos create <contract_name>",
-    "Update an upgradeable contract": "zos update <contract_name>",
-    "Test contracts": "truffle test",
-    "Test dapp": "cd client && npm test",
-    "Run dev server": "cd client && npm run start",
-    "Build for production": "cd client && npm run build",
-    "Start from a blank slate": "npm run start-blank"
-  },
+
   "hooks": {
     "post-unpack": "npm install && cd client && npm install"
   }
