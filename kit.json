@@ -1,6 +1,5 @@
 {
-  "ignore": ["README.md", "zos.json", ".github"],
-
+  "ignore": ["README.md"],
   "hooks": {
     "post-unpack": "npm install && cd client && npm install"
   }
